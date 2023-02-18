@@ -38,6 +38,13 @@ class BubbleSortTest {
         int[] actual = bubbleSort.sort(Sort);
         Assertions.assertArrayEquals(expected, actual);
     }
+    @Test
+    void doppelteElemente() {
+        int[] Sort = {99, 56, 54, 33, 45, 45};
+        int[] expected = {33,45,45,54,56,99};
+        int[] actual = bubbleSort.sort(Sort);
+        Assertions.assertArrayEquals(expected, actual);
 
+    }
 
 }
