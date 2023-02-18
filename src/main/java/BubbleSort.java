@@ -18,6 +18,7 @@ public class BubbleSort {
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
 
+
         /*
         TODO: Sortieren Sie den Inhalt eines Arrays mittels BubbleSort
         Vorschlag:
@@ -34,4 +35,6 @@ public class BubbleSort {
         }
         return array;
     }
-}
+
+    }
+

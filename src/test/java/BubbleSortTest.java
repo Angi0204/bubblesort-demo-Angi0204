@@ -41,10 +41,19 @@ class BubbleSortTest {
     @Test
     void doppelteElemente() {
         int[] Sort = {99, 56, 54, 33, 45, 45};
-        int[] expected = {33,45,45,54,56,99};
+        int[] expected = {33, 45, 45, 54, 56, 99};
         int[] actual = bubbleSort.sort(Sort);
         Assertions.assertArrayEquals(expected, actual);
-
+// Was macht der Algorithmus bei doppelten Zahlen?
+// //Bei einer langen Liste sollte man implementieren, dass doppelte Einträge entfernt werden
+    }
+        @Test
+        void negativeZahlen() {
+            int[] Sort = {-99, -56, -54, -33, -45, -45};
+            int[] expected = {-99,-56,-54,-45,-45,-33};
+            int[] actual = bubbleSort.sort(Sort);
+            Assertions.assertArrayEquals(expected, actual);
+            // Werden negative Zahlen richtig sortiert?
     }
 
 }
