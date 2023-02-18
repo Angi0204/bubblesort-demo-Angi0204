@@ -1,8 +1,8 @@
 /*
 
-    Name: Your firstname and Lastname
-    Email: Your Campus02-Mail-Address
-    Matrikel-Number: Your Matrikel-Number
+    Name: Angelika Ibrahim
+    Email: 11839286@edu.campus.at
+    Matrikel-Number: 11839286
 
  */
 
